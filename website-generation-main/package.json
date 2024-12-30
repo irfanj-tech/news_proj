@@ -1,0 +1,26 @@
+{
+  "name": "website-generation-system",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "cms"
+  ],
+  "scripts": {
+    "start-backend": "npm run dev --workspace backend",
+    "start-frontend": "npm run start --workspace frontend",
+    "start-cms": "npm run develop --workspace cms",
+    "start": "npm run start-backend & npm run start-frontend & npm run start-cms",
+    "install-all": "npm install",
+    "build": "npm run build --workspace frontend && npm run build --workspace cms",
+    "develop-cms": "npm run develop --workspace cms"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  }
+}

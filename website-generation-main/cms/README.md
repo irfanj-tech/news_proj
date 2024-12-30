@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> b8b80f6866cdf642753970e2c080f0b9ab447bb0
 # 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
@@ -93,12 +89,4 @@ DATABASE_USERNAME=
 DATABASE_PASSWORD=
 DATABASE_SSL=false
 DATABASE_FILENAME=.tmp/data.db
-<<<<<<< HEAD
 JWT_SECRET=8Q7WE2UdmxUDWbo5m2y65g==
-=======
-JWT_SECRET=8Q7WE2UdmxUDWbo5m2y65g==
-=======
-# news_proj
-Front-end
->>>>>>> 51fa6f97e0fa5be660720c6aea89e391106859e3
->>>>>>> b8b80f6866cdf642753970e2c080f0b9ab447bb0
