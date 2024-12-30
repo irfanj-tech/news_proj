@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_you_tube_videos",
+  "info": {
+    "displayName": "YouTube Video",
+    "icon": "television",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Description": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    }
+  }
+}
