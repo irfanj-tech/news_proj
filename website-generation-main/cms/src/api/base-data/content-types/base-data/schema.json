@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "base_data",
+  "info": {
+    "singularName": "base-data",
+    "pluralName": "base-datas",
+    "displayName": "Base Data"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

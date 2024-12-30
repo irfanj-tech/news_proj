@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_color_pickers",
+  "info": {
+    "displayName": "Color Picker",
+    "icon": "paint"
+  },
+  "options": {},
+  "attributes": {
+    "colorPicker": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    }
+  }
+}
